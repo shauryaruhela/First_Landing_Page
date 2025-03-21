@@ -1,0 +1,35 @@
+/* .Privacy{
+    background-color: rgba(46, 44, 44, 0.8);
+    color: white;
+    height: 120vh;
+} */
+
+.heading1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Ubuntu", sans-seri15;
+}
+
+.Privacy {
+    margin:7% 15%;
+}
+
+.heading2{
+    margin-top: 30px;
+    font-family: "Ubuntu", sans-seri15;
+}
+.paragraph{
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-seri15;
+}
+.fottera{
+    margin-right: 20px;
+}
+
+ul{
+    font-family: "Ubuntu", sans-seri15;
+}
+
+@media (max-width: 786px){
+
+}

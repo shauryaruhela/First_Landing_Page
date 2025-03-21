@@ -1,0 +1,942 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.headerf {
+  background-color: rgba(175, 164, 164, 0.8);
+  height: 70px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.headerf:hover {
+  cursor: pointer;
+}
+.img-h2 {
+  display: flex;
+}
+
+.navlink{
+   transition: 0.1s ease;
+   font-size: 20px;
+}
+li {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.navbarimg {
+  margin-top: 10px;
+}
+.navbar {
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  font-family: "Ubuntu", sans-seri15;
+}
+.nav-branding {
+  margin-top: 12px;
+  margin-right: 390px;
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.navlink{
+  transition: 0.7s ease;
+}
+.navlink:hover{
+  color: grey;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.btn0 {
+  width: 100px;
+  margin-top: 10px;
+  height: 38px;
+  border-radius: 10px 10px;
+  background-color: rgba(175, 164, 164, 0.8);
+  color: WHITE;
+  font-size: 15px;
+}
+
+.btn0:hover {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.sectionfirst {
+  width: 100%;
+  height: 80vh;
+  padding-top: 120px;
+  padding-left: 40px;
+  text-align: center;
+  color: white;
+  background-image: url(./assets/musicbody.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sech3 {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.sech1 {
+  padding-top: 23px;
+  font-size: 70px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+.secp {
+  padding-top: 32px;
+  font-size: 20px;
+  padding-top: 32px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.btn1 {
+  margin-top: 70px;
+  height: 49px;
+  width: 180px;
+  border-radius: 10px 10px;
+  font-size: 20px;
+  background-color: rgba(175, 164, 164, 0.8);
+  color: white;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: black;
+  font-size: 21px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.divmain {
+  margin-top: 80px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.div1 {
+  background-image: url(./assets/pexels-thepaintedsquare-1010519.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20%;
+  height: 80vh;
+  background-color: lightgray;
+  border-color: grey;
+  border-width: 50px;
+  border-style: inset;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.div2 {
+  padding-right: 90px;
+  width: 50%;
+  height: 450px;
+  border-color: transparent;
+  border-width: 8px;
+  border-style: inset;
+  font-family: "Ubuntu", sans-seri15;
+}
+
+.sech4 {
+  color: grey;
+  font-size: 25px;
+}
+
+.secth4 {
+  margin-top: 10px;
+  color: black;
+  font-size: 40px;
+}
+
+.divpara1 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.divpara2 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.divpara3 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.btn2 {
+  height: 40px;
+  width: 150px;
+  background-color: rgba(175, 164, 164, 0.8);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px 10px;
+  margin-top: 25px;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: black;
+  font-size: 21px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.section3div {
+  width: 100%;
+  height: 80vh;
+  background-color: grey;
+  backdrop-filter: blur(1px);
+  background-color: rgba(34, 33, 33, 0.8);
+}
+
+.sectionthird {
+  background-image: url(./assets/sectionthird4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: grey;
+  width: 100%;
+  height: 80vh;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(1px);
+  background-color: rgba(53, 51, 51, 0.8);
+}
+
+.secthrih3 {
+  padding-top: 120px;
+  font-size: 30px;
+}
+
+.secthrih1 {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.secthrip {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.btn3 {
+  border-radius: 10px 10px;
+  background-color: rgba(175, 164, 164, 0.8);
+  width: 150px;
+  height: 45px;
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+}
+
+.btn3:hover {
+  color: black;
+  font-size: 19px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sectionfour {
+  width: 100%;
+  height: 45vh;
+  margin-top: 20px;
+  font-family: "Ubuntu", sans-seri15;
+  text-align: center;
+}
+
+.sec4div2h4 {
+  padding-top: 30px;
+  font-size: 25px;
+  color: grey;
+}
+
+.sec4div2h1 {
+  padding-top: 30px;
+  font-size: 50px;
+}
+
+.sec4div2p {
+  padding-top: 30px;
+}
+
+.devisionfive {
+  width: 100%;
+  height: 100vh;
+  font-family: "Ubuntu", sans-seri15;
+  display: flex;
+  justify-content: space-evenly;
+  }
+
+.div5img {
+  height: 50vh;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.devision1 {
+  width: 25%;
+  height: 85vh;
+}
+
+.devisionfiveh1 {
+  margin-top: 15px;
+}
+
+.devisionfivep {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.devision5btn {
+  margin-top: 20px;
+  width: 35%;
+  height: 8vh;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-seri15;
+  border-radius: 10px 10px;
+}
+
+.devision5btn1 {
+  margin-top: 20px;
+  width: 35%;
+  height: 8vh;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-seri15;
+  border-radius: 10px 10px;
+}
+
+.devision5btn2 {
+  margin-top: 20px;
+  width: 35%;
+  height: 8vh;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-seri15;
+  border-radius: 10px 10px;
+}
+
+.devision5btn2:hover {
+  color: white;
+  background-color: rgba(175, 164, 164, 0.8);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.devision5btn1:hover {
+  color: white;
+  background-color: rgba(175, 164, 164, 0.8);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.devision5btn:hover {
+  color: white;
+  background-color: rgba(175, 164, 164, 0.8);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.section6 {
+  width: 40%;
+  height: 95vh;
+  background-color: rgba(175, 164, 164, 0.8);
+  margin-left: 420px;
+  border-radius: 20px 20px;
+  justify-content: center;
+  font-family: "Ubuntu", sans-seri15;
+}
+
+.section6h1 {
+  text-align: center;
+  color: black;
+  padding-top: 40px;
+}
+
+label {
+  font-size: 30px;
+  color: black;
+  margin-left: 18px;
+}
+
+input {
+  margin-left: 15px;
+  padding-left: 20px;
+  width: 90%;
+  height: 6vh;
+  font-size: 20px;
+  border-radius: 10px 10px;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: rgba(175, 164, 164, 0.8);
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.select1 {
+  width: 20%;
+  height: 8vh;
+  margin-left: 15px;
+  padding-left: 20px;
+  border-radius: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.select1:hover {
+  background-color: rgba(175, 164, 164, 0.8);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.devision7 {
+  margin-top: 40px;
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  gap: 200px;
+  padding-left: 120px;
+  padding-top: 60px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.div71 {
+  width: 50%;
+  height: 14vh;
+  text-align: center;
+}
+
+.div7img {
+  height: 8vh;
+  width: 50%;
+}
+
+.div8img {
+  width: 60%;
+  height: 10vh;
+}
+
+.h11 {
+  margin-top: 20px;
+  font-family: "Ubuntu", sans-seri15;
+  z-index: 999;
+}
+.h11:hover{
+  color: grey;
+  transition: background-color 0.3s, color 0.3s;
+}
+.h12 {
+  margin-top: 14px;
+  font-family: "Ubuntu", sans-seri15;
+  z-index: 999;
+}
+.h12:hover{
+  color: grey;
+  transition: background-color 0.3s, color 0.3s;
+}
+footer {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  background-color: rgba(175, 164, 164, 0.8);
+  font-size: 25px;
+  padding-top: 10px;
+  margin-top: 40px;
+}
+
+.fotterul {
+  display: flex;
+  list-style: none;
+  padding-top: 10px;
+  font-size: 20px;
+  gap: 40px;
+  justify-content: center;
+  padding-left: 60px;
+}
+
+.parafotter {
+  font-size: 25px;
+  padding-left: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.fottera {
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  margin-right: 60px;
+}
+.fottera:hover {
+  color: grey;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+@media (max-width: 786px) {
+  .headerf {
+    height: 70px;
+    background-color: rgba(175, 164, 164, 0.8);
+    position: sticky;
+    color: black;
+    top: 0;
+    width: 100%;
+  }
+  .navlink:hover{
+    color: grey;
+  }
+  .headerf:hover {
+    cursor: pointer;
+  }
+
+   .img-h2 {
+    display: flex;
+  }
+
+   .nav-branding {
+    margin-right:80px;
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+  }
+
+  .sectionfirst {
+    width: 100%;
+    height: 95vh;
+    padding-top: 120px;
+    padding-left: 40px;
+    text-align: center;
+    color: white;
+    background-image: url(./assets/musicbody.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .sech3 {
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .sech1 {
+    padding-top: 23px;
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+  }
+
+  .secp {
+    padding-top: 32px;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .btn0 {
+    width: 100px;
+    margin-top: 10px;
+    height: 38px;
+    border-radius: 10px 10px;
+    background-color: rgba(175, 164, 164, 0.8);
+    color: WHITE;
+    font-size: 16px;
+  }
+
+  .btn1 {
+    margin-top: 60px;
+    height: 39px;
+    width: 170px;
+    border-radius: 10px 10px;
+    font-size: 20px;
+    background-color: rgba(175, 164, 164, 0.8);
+    color: white;
+  }
+
+  .divmain {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .div1 {
+    background-image: url(./assets/pexels-thepaintedsquare-1010519.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45%;
+    height: 110vh;
+    background-color: lightgray;
+    border-color: grey;
+    border-width: 50px;
+    border-style: inset;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .div2 {
+    margin-left: 20px;
+    width: 50%;
+    height: 110vh;
+    border-color: transparent;
+    border-width: 8px;
+    border-style: inset;
+    font-family: "Ubuntu", sans-seri15;
+  }
+
+  .sech4 {
+    color: grey;
+    font-size: 25px;
+  }
+
+  .secth4 {
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+  }
+
+  .divpara1 {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .btn2 {
+    height: 30px;
+    width: 110px;
+    background-color: rgba(175, 164, 164, 0.8);
+    font-size: 15px;
+    border-radius: 10px 10px;
+    margin-top: 25px;
+  }
+
+  .sectionthird {
+    background-image: url(./assets/sectionthird4.jpeg);
+    filter: grayscale(0%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 90vh;
+    color: white;
+    text-align: center;
+  }
+
+  .section3div {
+    width: 100%;
+    height: 90vh;
+    background-color: grey;
+    backdrop-filter: blur(1px);
+    background-color: rgba(53, 51, 51, 0.8);
+  }
+
+  .secthrih3 {
+    padding-top: 80px;
+    font-size: 25px;
+    font-family: "Ubuntu", sans-seri15;
+  }
+
+  .secthrih1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  .secthrip {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+
+  .btn3 {
+    border-radius: 10px 10px;
+    background-color: rgba(175, 164, 164, 0.8);
+    width: 130px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: 14px;
+    color: white;
+  }
+
+  .btn3:hover{
+    background-color: rgba(175, 164, 164, 0.8);
+    font-size: 15px;
+    color: black;
+  }
+
+  .sectionfour {
+    width: 100%;
+    height: 45vh;
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-seri15;
+    text-align: center;
+  }
+
+  .sec4div2h4 {
+    padding-top: 30px;
+    font-size: 22px;
+    color: grey;
+  }
+
+  .sec4div2h1 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+
+  .sec4div2p {
+    padding-top: 30px;
+    font-size: px;
+  }
+
+  .devisionfive {
+    width: 100%;
+    height: 100vh;
+    font-family: "Ubuntu", sans-seri15;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+  }
+
+  .div5img {
+    height: 40vh;
+    width: 100%;
+    filter: grayscale(100%);
+  }
+
+  .devision1 {
+    width: 25%;
+    height: 105vh;
+  }
+
+  .devision2 {
+    width: 25%;
+    height: 105vh;
+  }
+
+  .devision3 {
+    width: 25%;
+    height: 105vh;
+  }
+
+  .devisionfiveh1 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .devisionfivep {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .devision5btn {
+    margin-top: 82px;
+    width: 50%;
+    height: 6vh;
+    font-size: 12px;
+    font-family: "Ubuntu", sans-seri15;
+    border-radius: 5px 5px;
+  }
+
+  .devision5btn1 {
+    margin-top: 62px;
+    width: 50%;
+    height: 6vh;
+    font-size: 12px;
+    font-family: "Ubuntu", sans-seri15;
+    border-radius: 5px 5px;
+  }
+
+  .devision5btn2 {
+    margin-top: 39px;
+    width: 50%;
+    height: 6vh;
+    font-size: 12px;
+    font-family: "Ubuntu", sans-seri15;
+    border-radius: 5px 5px;
+  }
+
+  .section6 {
+    margin-top: 240px;
+    width: 98%;
+    height: 115vh;
+    background-color: rgba(175, 164, 164, 0.8);
+    margin-left: 10px;
+    border-radius: 10px 10px;
+    justify-content: center;
+  }
+
+  .section6h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .form1 {
+    width: 100%;
+    height: 100vh;
+  }
+
+  label {
+    font-size: 25px;
+    color: white;
+    margin-left: 18px;
+  }
+
+  input {
+    margin-left: 15px;
+    padding-left: 20px;
+    width: 90%;
+    height: 7vh;
+    font-size: 20px;
+    border-radius: 10px 10px;
+    cursor: pointer;
+  }
+
+  input:hover {
+    cursor: pointer;
+    background-color: rgba(175, 164, 164, 0.8);
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .select1 {
+    width: 20%;
+    height: 10vh;
+    margin-left: 15px;
+    padding-left: 20px;
+    border-radius: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .devision7 {
+    width: 100%;
+    height: 20vh;
+    cursor: pointer;
+    gap: 20px;
+    margin: 10px 0px 60px 0px;
+    padding-left: 25px;
+  }
+  
+  .div71 {
+    width: 20%;
+    height: 14vh;
+    text-align: center;
+  }
+  
+  .div7img {
+    height: 5vh;
+    width: 35%;
+  }
+  
+  .div8img {
+    width: 40%;
+    height: 6vh;
+  }
+  
+  .h11 {
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-seri15;
+    z-index: 999;
+  }
+  .h12 {
+    margin-top: 14px;
+    font-family: "Ubuntu", sans-seri15;
+    z-index: 999;
+  }
+
+  footer {
+    width: 100%;
+    height: 14vh;
+    text-align: center;
+    background-color: rgba(175, 164, 164, 0.8);
+    font-size: 15px;
+    padding-top: 10px;
+    margin-top: 80px;
+  }
+  
+.fotterul{
+  display: flex;
+  list-style: none;
+  padding-top: 12px;
+  padding-left: 15px;
+  gap: 20px;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.parafotter{
+  font-size: 13px;
+  padding: 5px  20px;
+}
+
+.fottera{
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  margin-right: 10px;
+}
+.fottera:hover{
+  color: grey;
+}
+}
+
+@media(max-width:768px){
+  .hamburger{
+    display: block;
+ }
+ .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+ }
+ .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+ }
+ .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+ }
+ .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 80px;
+    gap: 0;
+    flex-direction: column;
+    background-color: rgba(175, 164, 164, 0.8);
+    width: 50%;
+    text-align: center;
+    transition: 0.9s;
+    margin-left: 10px;
+ }
+ .nav-item{
+    margin: 16px 0;
+ }
+ .nav-menu.active{
+    left: 0;
+ }
+}
